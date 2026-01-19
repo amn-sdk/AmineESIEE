@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio d'Amine SADDIK - Étudiant à ESIEE Paris et stagiaire au Ministère de l'Intérieur">
+  <meta name="keywords" content="Amine SADDIK, Portfolio, ESIEE Paris, Développeur, DevOps">
+  <meta name="author" content="Amine SADDIK">
+  
+  <title>Accueil - Amine SADDIK | Portfolio</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container navbar-container">
+      <div class="navbar-logo">AMINEFLEX</div>
+      
+      <button class="navbar-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <ul class="navbar-menu" id="navMenu">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="projets.html">Projets</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content fade-in">
+        <p class="hero-subtitle">Bienvenue sur mon portfolio</p>
+        <h1 class="hero-title">Amine SADDIK</h1>
+        <p class="hero-description">
+          Étudiant en ingénierie à ESIEE Paris et stagiaire au Ministère de l'Intérieur, 
+          je suis passionné par le développement de solutions innovantes et la maîtrise 
+          des technologies DevOps. Mon objectif est de développer mes compétences techniques 
+          et de contribuer à des projets qui ont un impact réel.
+        </p>
+        <div class="flex gap-md justify-center">
+          <a href="projets.html" class="btn btn-primary">
+            <i class="fas fa-rocket btn-icon"></i>
+            Mes Projets
+          </a>
+          <a href="cv.html" class="btn btn-secondary">
+            <i class="fas fa-download btn-icon"></i>
+            Télécharger CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header slide-up">
+        <p class="section-subtitle">En savoir plus</p>
+        <h2 class="section-title">À propos de moi</h2>
+      </div>
+      
+      <div class="grid grid-cols-3 gap-lg">
+        <div class="card slide-up stagger-1">
+          <div class="text-center">
+            <i class="fas fa-graduation-cap" style="font-size: 3rem; color: var(--accent-primary); margin-bottom: var(--space-md);"></i>
+            <h3 class="card-title">Formation</h3>
+            <p class="card-description">
+              Étudiant en ingénierie à ESIEE Paris, spécialisé dans les systèmes d'information et le DevOps.
+            </p>
+            <a href="parcours.html" class="text-accent font-semibold">
+              En savoir plus <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card slide-up stagger-2">
+          <div class="text-center">
+            <i class="fas fa-briefcase" style="font-size: 3rem; color: var(--accent-primary); margin-bottom: var(--space-md);"></i>
+            <h3 class="card-title">Expérience</h3>
+            <p class="card-description">
+              Stagiaire au Ministère de l'Intérieur, travaillant sur des projets d'infrastructure et d'automatisation.
+            </p>
+            <a href="parcours.html" class="text-accent font-semibold">
+              En savoir plus <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card slide-up stagger-3">
+          <div class="text-center">
+            <i class="fas fa-code" style="font-size: 3rem; color: var(--accent-primary); margin-bottom: var(--space-md);"></i>
+            <h3 class="card-title">Compétences</h3>
+            <p class="card-description">
+              Expertise en Python, JavaScript, DevOps, Infrastructure as Code, et développement web moderne.
+            </p>
+            <a href="parcours.html" class="text-accent font-semibold">
+              En savoir plus <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Projets récents</p>
+        <h2 class="section-title">Travaux sélectionnés</h2>
+        <p class="section-description">
+          Découvrez quelques-uns de mes projets les plus significatifs
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-lg">
+        <div class="card">
+          <div style="width: 100%; aspect-ratio: 16/9; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: var(--radius-lg); margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-server" style="font-size: 4rem; color: white; opacity: 0.8;"></i>
+          </div>
+          <h3 class="card-title">Infrastructure as Code</h3>
+          <p class="card-description">
+            Projet d'automatisation d'infrastructure avec Terraform, Ansible et Packer pour le déploiement cloud.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Terraform</span>
+            <span class="tag">Ansible</span>
+            <span class="tag">AWS</span>
+            <span class="tag">DevOps</span>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div style="width: 100%; aspect-ratio: 16/9; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: var(--radius-lg); margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-chart-line" style="font-size: 4rem; color: white; opacity: 0.8;"></i>
+          </div>
+          <h3 class="card-title">Dashboard Analytics</h3>
+          <p class="card-description">
+            Application web de visualisation de données avec Python, Streamlit et Plotly pour l'analyse de données sportives.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">Plotly</span>
+            <span class="tag">Data Viz</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-xl">
+        <a href="projets.html" class="btn btn-primary">
+          Voir tous les projets
+          <i class="fas fa-arrow-right btn-icon"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA Section -->
+  <section class="section">
+    <div class="container">
+      <div class="card text-center" style="max-width: 800px; margin: 0 auto; padding: var(--space-2xl);">
+        <h2 class="card-title" style="font-size: var(--font-size-4xl); margin-bottom: var(--space-md);">
+          Travaillons ensemble
+        </h2>
+        <p class="card-description" style="font-size: var(--font-size-lg); margin-bottom: var(--space-xl);">
+          Je suis toujours ouvert à de nouvelles opportunités et collaborations. 
+          N'hésitez pas à me contacter !
+        </p>
+        <div class="flex gap-md justify-center">
+          <a href="mailto:amine.saddik@edu.esiee.fr" class="btn btn-primary">
+            <i class="fas fa-envelope btn-icon"></i>
+            Me contacter
+          </a>
+          <a href="https://www.linkedin.com/in/amine-saddik" target="_blank" class="btn btn-secondary">
+            <i class="fab fa-linkedin btn-icon"></i>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>AMINEFLEX</h4>
+          <p style="color: var(--text-secondary); margin-top: var(--space-sm);">
+            Portfolio d'Amine SADDIK<br>
+            Étudiant ingénieur à ESIEE Paris
+          </p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="parcours.html">Parcours</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="cv.html">CV</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:amine.saddik@edu.esiee.fr">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/amine-saddik" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/aminesaddik" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Réseaux sociaux</h4>
+          <div class="footer-social">
+            <a href="https://github.com/aminesaddik" target="_blank" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/amine-saddik" target="_blank" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:amine.saddik@edu.esiee.fr" class="social-link" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Amine SADDIK. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

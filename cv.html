@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV d'Amine SADDIK - Téléchargez mon curriculum vitae">
+    <title>CV - Amine SADDIK | Portfolio</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="navbar-logo">AMINEFLEX</div>
+
+            <button class="navbar-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="navbar-menu" id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="parcours.html">Parcours</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="cv.html" class="active">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero" style="min-height: 50vh;">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <p class="hero-subtitle">Curriculum Vitae</p>
+                <h1 class="hero-title" style="font-size: var(--font-size-5xl);">Mon CV</h1>
+                <p class="hero-description">
+                    Téléchargez mon CV au format PDF ou consultez-le directement en ligne
+                </p>
+                <a href="#" class="btn btn-primary mt-md"
+                    onclick="alert('PDF à venir - Configurez votre CV PDF dans le dossier assets/documents/'); return false;">
+                    <i class="fas fa-download btn-icon"></i>
+                    Télécharger le PDF
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Content -->
+    <section class="section">
+        <div class="container" style="max-width: 900px;">
+
+            <!-- Personal Info -->
+            <div class="card" style="padding: var(--space-2xl); margin-bottom: var(--space-xl);">
+                <div class="flex gap-lg items-center">
+                    <div
+                        style="width: 120px; height: 120px; border-radius: 50%; background: var(--accent-gradient); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; font-weight: 800;">
+                        AS
+                    </div>
+                    <div style="flex: 1;">
+                        <h2 style="font-size: var(--font-size-4xl); margin-bottom: var(--space-sm);">Amine SADDIK</h2>
+                        <p
+                            style="font-size: var(--font-size-xl); color: var(--accent-primary); margin-bottom: var(--space-md);">
+                            Étudiant Ingénieur - DevOps & Développement
+                        </p>
+                        <div class="flex gap-lg flex-wrap">
+                            <div class="flex gap-sm items-center">
+                                <i class="fas fa-envelope" style="color: var(--accent-primary);"></i>
+                                <a href="mailto:amine.saddik@edu.esiee.fr">amine.saddik@edu.esiee.fr</a>
+                            </div>
+                            <div class="flex gap-sm items-center">
+                                <i class="fas fa-map-marker-alt" style="color: var(--accent-primary);"></i>
+                                <span>Paris, France</span>
+                            </div>
+                            <div class="flex gap-sm items-center">
+                                <i class="fab fa-linkedin" style="color: var(--accent-primary);"></i>
+                                <a href="https://www.linkedin.com/in/amine-saddik" target="_blank">LinkedIn</a>
+                            </div>
+                            <div class="flex gap-sm items-center">
+                                <i class="fab fa-github" style="color: var(--accent-primary);"></i>
+                                <a href="https://github.com/aminesaddik" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Summary -->
+            <div class="card" style="margin-bottom: var(--space-xl);">
+                <h3
+                    style="font-size: var(--font-size-2xl); margin-bottom: var(--space-md); display: flex; align-items: center; gap: var(--space-sm);">
+                    <i class="fas fa-user" style="color: var(--accent-primary);"></i>
+                    Profil
+                </h3>
+                <p style="color: var(--text-secondary); line-height: 1.8;">
+                    Étudiant ingénieur à ESIEE Paris passionné par le DevOps et le développement de solutions
+                    innovantes.
+                    Actuellement en stage au Ministère de l'Intérieur, je développe mes compétences en automatisation
+                    d'infrastructures, CI/CD et développement web. Motivé par l'apprentissage continu et la contribution
+                    à des projets techniques ayant un impact réel.
+                </p>
+            </div>
+
+            <!-- Formation -->
+            <div class="card" style="margin-bottom: var(--space-xl);">
+                <h3
+                    style="font-size: var(--font-size-2xl); margin-bottom: var(--space-lg); display: flex; align-items: center; gap: var(--space-sm);">
+                    <i class="fas fa-graduation-cap" style="color: var(--accent-primary);"></i>
+                    Formation
+                </h3>
+
+                <div style="margin-bottom: var(--space-lg);">
+                    <div class="flex justify-between items-start" style="margin-bottom: var(--space-xs);">
+                        <h4 style="font-size: var(--font-size-lg); font-weight: 600;">Diplôme d'Ingénieur - Systèmes
+                            d'Information</h4>
+                        <span style="color: var(--accent-primary); font-weight: 600;">2023 - 2026</span>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: var(--space-sm);">ESIEE Paris</p>
+                    <p style="color: var(--text-secondary); font-size: var(--font-size-sm);">
+                        Spécialisation en DevOps, Cloud Computing et Architecture des Systèmes d'Information
+                    </p>
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start" style="margin-bottom: var(--space-xs);">
+                        <h4 style="font-size: var(--font-size-lg); font-weight: 600;">Classes Préparatoires aux Grandes
+                            Écoles</h4>
+                        <span style="color: var(--accent-primary); font-weight: 600;">2021 - 2023</span>
+                    </div>
+                    <p style="color: var(--text-secondary);">CPGE - Mathématiques et Physique</p>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="card" style="margin-bottom: var(--space-xl);">
+                <h3
+                    style="font-size: var(--font-size-2xl); margin-bottom: var(--space-lg); display: flex; align-items: center; gap: var(--space-sm);">
+                    <i class="fas fa-briefcase" style="color: var(--accent-primary);"></i>
+                    Expérience Professionnelle
+                </h3>
+
+                <div style="margin-bottom: var(--space-lg);">
+                    <div class="flex justify-between items-start" style="margin-bottom: var(--space-xs);">
+                        <h4 style="font-size: var(--font-size-lg); font-weight: 600;">Stagiaire DevOps</h4>
+                        <span style="color: var(--accent-primary); font-weight: 600;">2025 - Présent</span>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: var(--space-sm);">Ministère de l'Intérieur
+                    </p>
+                    <ul
+                        style="color: var(--text-secondary); font-size: var(--font-size-sm); padding-left: var(--space-lg);">
+                        <li>Automatisation d'infrastructures avec Terraform et Ansible</li>
+                        <li>Mise en place de pipelines CI/CD avec GitLab</li>
+                        <li>Conteneurisation et orchestration avec Docker et Kubernetes</li>
+                        <li>Monitoring et observabilité des systèmes</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start" style="margin-bottom: var(--space-xs);">
+                        <h4 style="font-size: var(--font-size-lg); font-weight: 600;">Développeur Full-Stack</h4>
+                        <span style="color: var(--accent-primary); font-weight: 600;">2024</span>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: var(--space-sm);">Projet Académique - ESIEE
+                        Paris</p>
+                    <ul
+                        style="color: var(--text-secondary); font-size: var(--font-size-sm); padding-left: var(--space-lg);">
+                        <li>Développement d'une application de gestion d'équipes sportives</li>
+                        <li>Architecture microservices avec FastAPI et React</li>
+                        <li>Mise en place de tests automatisés et documentation API</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="card" style="margin-bottom: var(--space-xl);">
+                <h3
+                    style="font-size: var(--font-size-2xl); margin-bottom: var(--space-lg); display: flex; align-items: center; gap: var(--space-sm);">
+                    <i class="fas fa-code" style="color: var(--accent-primary);"></i>
+                    Compétences Techniques
+                </h3>
+
+                <div class="grid grid-cols-2 gap-lg">
+                    <div>
+                        <h4 style="font-weight: 600; margin-bottom: var(--space-sm); color: var(--text-primary);">
+                            Langages</h4>
+                        <div class="flex flex-wrap gap-sm">
+                            <span class="tag">Python</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Bash</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 style="font-weight: 600; margin-bottom: var(--space-sm); color: var(--text-primary);">
+                            Frameworks</h4>
+                        <div class="flex flex-wrap gap-sm">
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">Streamlit</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 style="font-weight: 600; margin-bottom: var(--space-sm); color: var(--text-primary);">DevOps
+                        </h4>
+                        <div class="flex flex-wrap gap-sm">
+                            <span class="tag">Docker</span>
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">Terraform</span>
+                            <span class="tag">Ansible</span>
+                            <span class="tag">GitLab CI/CD</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 style="font-weight: 600; margin-bottom: var(--space-sm); color: var(--text-primary);">Cloud
+                            & Outils</h4>
+                        <div class="flex flex-wrap gap-sm">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="card" style="margin-bottom: var(--space-xl);">
+                <h3
+                    style="font-size: var(--font-size-2xl); margin-bottom: var(--space-md); display: flex; align-items: center; gap: var(--space-sm);">
+                    <i class="fas fa-language" style="color: var(--accent-primary);"></i>
+                    Langues
+                </h3>
+
+                <div class="grid grid-cols-3 gap-md">
+                    <div class="text-center">
+                        <p style="font-weight: 600; margin-bottom: var(--space-xs);">Français</p>
+                        <p style="color: var(--text-secondary); font-size: var(--font-size-sm);">Langue maternelle</p>
+                    </div>
+                    <div class="text-center">
+                        <p style="font-weight: 600; margin-bottom: var(--space-xs);">Anglais</p>
+                        <p style="color: var(--text-secondary); font-size: var(--font-size-sm);">Courant (B2-C1)</p>
+                    </div>
+                    <div class="text-center">
+                        <p style="font-weight: 600; margin-bottom: var(--space-xs);">Arabe</p>
+                        <p style="color: var(--text-secondary); font-size: var(--font-size-sm);">Intermédiaire</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interests -->
+            <div class="card">
+                <h3
+                    style="font-size: var(--font-size-2xl); margin-bottom: var(--space-md); display: flex; align-items: center; gap: var(--space-sm);">
+                    <i class="fas fa-heart" style="color: var(--accent-primary);"></i>
+                    Centres d'intérêt
+                </h3>
+
+                <div class="flex flex-wrap gap-md">
+                    <div class="flex items-center gap-sm">
+                        <i class="fas fa-laptop-code" style="color: var(--accent-primary);"></i>
+                        <span>Open Source</span>
+                    </div>
+                    <div class="flex items-center gap-sm">
+                        <i class="fas fa-futbol" style="color: var(--accent-primary);"></i>
+                        <span>Football</span>
+                    </div>
+                    <div class="flex items-center gap-sm">
+                        <i class="fas fa-book" style="color: var(--accent-primary);"></i>
+                        <span>Veille technologique</span>
+                    </div>
+                    <div class="flex items-center gap-sm">
+                        <i class="fas fa-plane" style="color: var(--accent-primary);"></i>
+                        <span>Voyages</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="card text-center" style="max-width: 800px; margin: 0 auto; padding: var(--space-2xl);">
+                <h2 class="card-title" style="font-size: var(--font-size-4xl); margin-bottom: var(--space-md);">
+                    Intéressé par mon profil ?
+                </h2>
+                <p class="card-description" style="font-size: var(--font-size-lg); margin-bottom: var(--space-xl);">
+                    N'hésitez pas à me contacter pour discuter d'opportunités ou de collaborations
+                </p>
+                <div class="flex gap-md justify-center">
+                    <a href="mailto:amine.saddik@edu.esiee.fr" class="btn btn-primary">
+                        <i class="fas fa-envelope btn-icon"></i>
+                        Me contacter
+                    </a>
+                    <a href="https://www.linkedin.com/in/amine-saddik" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin btn-icon"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>AMINEFLEX</h4>
+                    <p style="color: var(--text-secondary); margin-top: var(--space-sm);">
+                        Portfolio d'Amine SADDIK<br>
+                        Étudiant ingénieur à ESIEE Paris
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="parcours.html">Parcours</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:amine.saddik@edu.esiee.fr">Email</a></li>
+                        <li><a href="https://www.linkedin.com/in/amine-saddik" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/aminesaddik" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Réseaux sociaux</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/aminesaddik" target="_blank" class="social-link"
+                            aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/amine-saddik" target="_blank" class="social-link"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:amine.saddik@edu.esiee.fr" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Amine SADDIK. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+
+</html>
